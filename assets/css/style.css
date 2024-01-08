@@ -25,7 +25,10 @@ header {
    position: fixed;
    z-index: 99;
    width: 100%;
-   box-shadow: 1px 1px 1px #2c42b1
+   box-shadow: 1px 1px 1px #2c42b1;
+   display: flex;
+   justify-content: space-between;
+   align-items: baseline;
 }
 
 header a {
@@ -36,6 +39,10 @@ header a {
 h1 {
    text-transform: uppercase;
    letter-spacing: 1px;
+}
+
+p {
+   color: aliceblue;
 }
 
 #menu {
@@ -61,7 +68,7 @@ nav {
 
 /* Main content */
 main {
-   background-color: green;
+   background-image: url("/assets/images/lift.jpg"); center/cover;
    /* Make main element take up any surplus space to push footer down */
    flex: 1 0 auto;
 }
