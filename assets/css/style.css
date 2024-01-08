@@ -64,11 +64,25 @@ nav {
    padding: 0 1rem;
    box-shadow: 2px 2px 2px;
    display: none;
+   top: 100%;
+}
+
+/* Nav-toggle */
+#nav-toggle:checked~nav {
+   display: block;
+}
+
+#nav-toggle {
+   display: none;
+}
+
+.nav-toggle-label {
+   font-size: 2rem;
 }
 
 /* Main content */
 main {
-   background-image: url("/assets/images/lift.jpg"); center/cover;
+   background-image: url("/assets/images/lift.jpg");
    /* Make main element take up any surplus space to push footer down */
    flex: 1 0 auto;
 }
