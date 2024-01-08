@@ -28,6 +28,16 @@ header {
    box-shadow: 1px 1px 1px #2c42b1
 }
 
+header a {
+   text-decoration: none;
+   color: inherit;
+}
+
+h1 {
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+
 /* Main content */
 main {
    background-color: green;
