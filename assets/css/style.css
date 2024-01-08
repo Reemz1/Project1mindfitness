@@ -42,7 +42,7 @@ h1 {
 }
 
 p {
-   color: aliceblue;
+   color: black;
 }
 
 #menu {
@@ -85,6 +85,12 @@ main {
    background-image: url("/assets/images/lift.jpg");
    /* Make main element take up any surplus space to push footer down */
    flex: 1 0 auto;
+   margin-top: 40px;
+}
+
+/* Introductory paragraph */
+#intro {
+   background-color: rgba(255, 255, 255, 0.5)
 }
 
 /* Footer */
