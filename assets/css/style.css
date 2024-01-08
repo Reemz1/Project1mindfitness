@@ -20,7 +20,12 @@ body {
 
 /* Header */
 header {
-   background-color: blue;
+   background-color: white;
+   padding: 0 1rem;
+   position: fixed;
+   z-index: 99;
+   width: 100%;
+   box-shadow: 1px 1px 1px #2c42b1
 }
 
 /* Main content */
