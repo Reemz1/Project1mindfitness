@@ -38,6 +38,11 @@ h1 {
    letter-spacing: 1px;
 }
 
+#menu {
+   list-style: none;
+   letter-spacing: 2px;
+}
+
 /* Main content */
 main {
    background-color: green;
