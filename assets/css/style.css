@@ -41,6 +41,11 @@ h1 {
 #menu {
    list-style: none;
    letter-spacing: 2px;
+   margin: 4px;
+}
+
+.bold {
+   text-transform: uppercase;
 }
 
 /* Main content */
