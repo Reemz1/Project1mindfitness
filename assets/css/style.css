@@ -85,7 +85,7 @@ main {
    background-image: url("/assets/images/lift.jpg");
    /* Make main element take up any surplus space to push footer down */
    flex: 1 0 auto;
-   margin-top: 40px;
+   margin-top: 100px;
 }
 
 /* Introductory paragraph */
