@@ -90,7 +90,7 @@ main { /* Make main element take up any surplus space to push footer down */
 
 /* Hero section */
 #hero {
-   height: 600px;
+   height: 500px;
    width: 100%;
    background: url("../images/lift.jpg") no-repeat center center/cover;
    position: relative;
@@ -99,7 +99,7 @@ main { /* Make main element take up any surplus space to push footer down */
 #cover-text {
    /* Final rgba value sets opacity so that it is semi-transparent */
    background-color: rgba(255, 255, 255, 0.5);
-   font-size: 130%;
+   font-size: 70%;
    text-transform: none;
    position: absolute;
    bottom: 50px;
@@ -154,6 +154,11 @@ main { /* Make main element take up any surplus space to push footer down */
       /* Push main content down to accomodate larger header */
       margin-top: 105px; 
       text-align: center;
+   }
+
+   #hero {
+      height: fit-content;
+      width: fit-content;
    }
 }
 
