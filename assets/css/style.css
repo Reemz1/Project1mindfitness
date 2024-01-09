@@ -48,7 +48,12 @@ p {
 #menu {
    list-style: none;
    letter-spacing: 2px;
-   margin: 4px;
+   margin: 4x;
+   display: flex;
+}
+
+#menu > li {
+   padding-left: 1rem;
 }
 
 .bold {
@@ -102,6 +107,7 @@ footer {
 
 /* Media query: styles applied to tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+   /* Header */
    nav {display: block;
    position: relative;
    box-shadow: none;
