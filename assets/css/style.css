@@ -156,10 +156,22 @@ main { /* Make main element take up any surplus space to push footer down */
       text-align: center;
    }
 
+   /* Hero image */
    #hero {
-      height: fit-content;
-      width: fit-content;
+      height: 1000px;
+      width: 100%;
+      position: relative;
    }
+
+   #cover-text {
+      /* Final rgba value sets opacity so that it is semi-transparent */
+      background-color: rgba(255, 255, 255, 0.5);
+      font-size: 150%;
+      text-transform: none;
+      position: absolute;
+      bottom: 50px;
+   }
+
 }
 
 /* Media query: styles applied to laptops and larger (992px and up) */
