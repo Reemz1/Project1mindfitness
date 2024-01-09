@@ -100,6 +100,7 @@ footer {
    :orange;
 }
 
+
 /* Media query: styles applied to tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
    /* Header */
@@ -138,7 +139,7 @@ footer {
 
 /* Media query: styles applied to laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
-   #menugit  a:hover{
+   #menu a:hover{
       border-bottom: 1px solid #3a3a3a;
    }
 }
