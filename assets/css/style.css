@@ -81,15 +81,20 @@ nav {
 }
 
 /* Main content */
-main {
-   background-image: url("/assets/images/lift.jpg");
-   /* Make main element take up any surplus space to push footer down */
+main { /* Make main element take up any surplus space to push footer down */
    flex: 1 0 auto;
    margin-top: 100px;
 }
 
+/* Hero section */
+#hero {
+   height: 600px;
+   width: 100%;
+   background: url("../images/lift.jpg") no-repeat center center/cover;
+}
+
 /* Introductory paragraph */
-#intro {
+section > p {
    background-color: rgba(255, 255, 255, 0.5)
 }
 
