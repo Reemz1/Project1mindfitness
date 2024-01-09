@@ -47,13 +47,7 @@ p {
 
 #menu {
    list-style: none;
-   letter-spacing: 2px;
-   margin: 4x;
-   display: flex;
-}
-
-#menu > li {
-   padding-left: 1rem;
+   letter-spacing: normal;
 }
 
 .bold {
@@ -83,6 +77,7 @@ nav {
 
 .nav-toggle-label {
    font-size: 2rem;
+
 }
 
 /* Main content */
@@ -115,6 +110,15 @@ footer {
    padding-right: 1rem;
    }
 
-
+   #menu {
+      display: flex;
+   }
    
+   #menu > li {
+      padding-left: 1rem;
+   }
+
+   .nav-toggle-label {
+      display: none;
+   }
 }
