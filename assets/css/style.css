@@ -128,7 +128,7 @@ main { /* Make main element take up any surplus space to push footer down */
    position: relative;
    box-shadow: none;
    width: fit-content;
-   padding-right: 1rem;
+   padding-right: 0.5rem;
    }
 
    #menu {
