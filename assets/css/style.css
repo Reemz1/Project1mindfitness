@@ -94,10 +94,18 @@ main {
 }
 
 /* Footer */
+#social-networks {
+   text-align: center;
+   padding: 20px;
+   display: flex;
+   justify-content: space-evenly;
+   list-style-type: none;
+}
 
-footer {
-   background-color
-   :orange;
+#social-networks i {
+   font-size: 200%;
+   padding: 5%;
+   color: #3a3a3a;
 }
 
 
