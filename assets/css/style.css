@@ -26,7 +26,7 @@ h1, h2, h3 {
 /* Header */
 header {
    background-color: white;
-   padding: 0 1rem;
+   padding: 0.5em 1rem;
    position: fixed;
    z-index: 99;
    width: 100%;
@@ -126,7 +126,17 @@ main { /* Make main element take up any surplus space to push footer down */
 #upper-body-header {
    font-size: 20px;
    background-color: aliceblue;
-   margin-top: 10px;
+   margin-top: 20px;
+}
+
+div h3 {
+   font-size: 15px;
+   text-transform: capitalize, lowercase;
+}
+
+#bicep-curls-image {
+   width: 80%;
+   height: 80%;
 }
 
 /* Lower body page */
@@ -134,7 +144,12 @@ main { /* Make main element take up any surplus space to push footer down */
 #lower-body-header {
    font-size: 20px;
    background-color: aliceblue;
-   margin-top: 10px;
+   margin-top: 20px;
+}
+
+div h3 {
+   font-size: 15px;
+   text-transform: capitalize, lowercase;
 }
 
 /* Sign up page */
@@ -142,7 +157,7 @@ main { /* Make main element take up any surplus space to push footer down */
 #sign-up-header {
    font-size: 20px;
    background-color: aliceblue;
-   margin-top: 10px;
+   margin-top: 20px;
 }
 
 
