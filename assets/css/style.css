@@ -92,7 +92,7 @@ main { /* Make main element take up any surplus space to push footer down */
 
 /* Hero section */
 #hero {
-   height: 500px;
+   height: 600px;
    width: 100%;
    background: url("../images/lift.jpg") no-repeat center center/cover;
    position: relative;
