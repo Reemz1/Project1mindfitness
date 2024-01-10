@@ -207,7 +207,15 @@ div h3 {
 }
 
 #signup-image {
-   background-image: ;
+   background: URL("../images/signup-background.jpg") no-repeat center center/cover;
+}
+
+main input {
+   width: 50%;
+}
+
+main label {
+   color: white;
 }
 
 /* Media query: styles applied to tablets and larger (768px and up) */
