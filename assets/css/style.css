@@ -34,6 +34,7 @@ header {
    display: flex;
    justify-content: space-between;
    align-items: baseline;
+   font-size: 70%;
 }
 
 header a {
@@ -85,7 +86,7 @@ nav {
 /* Main content */
 main { /* Make main element take up any surplus space to push footer down */
    flex: 1 0 auto;
-   margin-top: 100px;
+   margin-top: 70px;
 }
 
 /* Hero section */
@@ -118,6 +119,30 @@ main { /* Make main element take up any surplus space to push footer down */
    font-size: 200%;
    padding: 5%;
    color: #3a3a3a;
+}
+
+/* Upper body page */
+
+#upper-body-header {
+   font-size: 20px;
+   background-color: aliceblue;
+   margin-top: 10px;
+}
+
+/* Lower body page */
+
+#lower-body-header {
+   font-size: 20px;
+   background-color: aliceblue;
+   margin-top: 10px;
+}
+
+/* Sign up page */
+
+#sign-up-header {
+   font-size: 20px;
+   background-color: aliceblue;
+   margin-top: 10px;
 }
 
 
@@ -171,6 +196,28 @@ main { /* Make main element take up any surplus space to push footer down */
       position: absolute;
       bottom: 50px;
    }
+
+    /* Upper body page */
+
+main h2 {
+   font-size: 100px;
+   background-color: aliceblue;
+   margin-top: 100px;
+}
+
+/* Lower body page */
+
+main h2 {
+   font-size: 200%;
+   background-color: aliceblue;
+}
+
+/* Sign up page */
+
+main h2 {
+   font-size: 200%;
+   background-color: aliceblue;
+}
 
 }
 
