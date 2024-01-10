@@ -51,6 +51,7 @@ p {
 #menu {
    list-style: none;
    letter-spacing: normal;
+   font-size: 130%;
 }
 
 .bold {
