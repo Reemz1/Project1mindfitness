@@ -165,15 +165,6 @@ div h3 {
    height: 80%;
 }
 
-#squats-image {
-   width: 80%;
-   height: 80%;
-}
-
-#squats-muscles-worked-image {
-   width: 80%;
-   height: 80%;
-}
 
 
 
@@ -190,6 +181,17 @@ div h3 {
    text-transform: capitalize, lowercase;
 }
 
+#squats-image {
+   width: 80%;
+   height: 80%;
+}
+
+#squats-muscles-worked-image {
+   width: 80%;
+   height: 80%;
+}
+
+
 /* Sign up page */
 
 #sign-up-header {
@@ -198,6 +200,15 @@ div h3 {
    margin-top: 20px;
 }
 
+#signup-form {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+}
+
+#signup-image {
+   background-image: ;
+}
 
 /* Media query: styles applied to tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
