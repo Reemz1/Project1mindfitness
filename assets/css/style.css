@@ -242,6 +242,12 @@ main label {
    
 }
 
+#agree {
+   position: relative;
+   bottom: 16px;
+   left: 180px;
+}
+
 
 /* Media query: styles applied to tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
