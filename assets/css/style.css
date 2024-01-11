@@ -327,6 +327,15 @@ header {
       bottom: 50px;
    }
 
+   /* All 3 pages */
+   .main-content {
+      font-size: 150%;
+   }
+
+   .main-content-header {
+      font-size: 120%;
+   }
+
     /* Upper body page */
 
     #upper-body-header {
