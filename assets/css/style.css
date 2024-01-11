@@ -412,7 +412,7 @@ main label {
   /* Contact Us section */
   #contact-section {
    position: relative;
-   bottom: -350px;
+   bottom: -300px;
    background-color: rgba(255, 255, 255, 0.5);
    font-size: 200%;
 }
