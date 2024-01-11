@@ -191,6 +191,25 @@ div h3 {
    height: 80%;
 }
 
+#lunge-image {
+   width: 80%;
+   height: 80%;
+}
+
+#lunges-muscles-worked-image {
+   width: 80%;
+   height: 80%;
+}
+
+#hip-thrust-image {
+   width: 80%;
+   height: 80%;
+}
+
+#hip-thrust-muscles-worked-image {
+   width: 80%;
+   height: 80%;
+}
 
 /* Sign up page */
 
@@ -217,6 +236,11 @@ main input {
 main label {
    color: white;
 }
+
+#agree {
+   
+}
+
 
 /* Media query: styles applied to tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
