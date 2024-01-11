@@ -251,6 +251,10 @@ main label {
    bottom: 15px;
 }
 
+#submit-button {
+   width: 50%;
+}
+
 
 /* Media query: styles applied to tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
