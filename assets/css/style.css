@@ -271,6 +271,20 @@ main label {
    padding-right: 0.5rem;
    }
 
+   /* Header */
+header {
+   background-color: white;
+   padding: 0.5em 1rem;
+   position: fixed;
+   z-index: 99;
+   width: 100%;
+   box-shadow: 1px 1px 1px #2c42b1;
+   display: flex;
+   justify-content: space-between;
+   align-items: baseline;
+   font-size: 80%;
+}
+
    #menu {
       display: flex;
    }
@@ -317,7 +331,7 @@ main label {
     #upper-body-header {
       font-size: 200%;
       background-color: aliceblue;
-      margin-top: 0px;
+      margin-top: 5px;
    }
 
 main h2 {
@@ -331,7 +345,7 @@ main h2 {
 #lower-body-header {
    font-size: 200%;
    background-color: aliceblue;
-   margin-top: 0px;
+   margin-top: 5px;
 }
 
 main h2 {
@@ -349,7 +363,7 @@ main h2 {
 #sign-up-header {
    font-size: 200%;
    background-color: aliceblue;
-   margin-top: 0px;
+   margin-top: 5px;
 }
 
 #signup-form {
@@ -362,6 +376,7 @@ main h2 {
 .form-labels {
    position: relative;
    right: 200px;
+   font-size: 150%;
 }
 
 #signup-image {
@@ -386,8 +401,8 @@ main label {
 
 #agree {
    position: relative;
-   left: 115px;
-   bottom: 15px;
+   left: 140px;
+   bottom: 20px;
 }
 
 #submit-button {
