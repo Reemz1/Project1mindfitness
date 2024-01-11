@@ -321,10 +321,10 @@ header {
    #cover-text {
       /* Final rgba value sets opacity so that it is semi-transparent */
       background-color: rgba(255, 255, 255, 0.5);
-      font-size: 150%;
+      font-size: 500px;
       text-transform: none;
-      position: absolute;
-      bottom: 50px;
+      position: relative;
+      bottom: -800px;
    }
 
    /* All 3 pages */
