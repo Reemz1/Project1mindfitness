@@ -104,8 +104,9 @@ main { /* Make main element take up any surplus space to push footer down */
    font-size: 70%;
    text-transform: none;
    position: absolute;
-   bottom: 50px;
+   bottom: 30px;
 }
+
 
 /* Footer */
 #social-networks {
@@ -114,6 +115,7 @@ main { /* Make main element take up any surplus space to push footer down */
    display: flex;
    justify-content: space-evenly;
    list-style-type: none;
+   position: relative;
 }
 
 #social-networks i {
@@ -255,6 +257,12 @@ main label {
    width: 50%;
 }
 
+  /* Contact Us section */
+  #contact-section {
+   position: relative;
+   bottom: -50px;
+   background-color: rgba(255, 255, 255, 0.5);
+}
 
 /* Media query: styles applied to tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
