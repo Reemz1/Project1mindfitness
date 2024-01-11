@@ -406,7 +406,10 @@ main label {
 }
 
 #submit-button {
-   width: 50%;
+   width: 20%;
+   height: 30%;
+   position: relative;
+   right: -15%;
 }
 
   /* Contact Us section */
