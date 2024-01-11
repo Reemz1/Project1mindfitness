@@ -239,13 +239,14 @@ main label {
 
 #fieldset {
    color: white;
+   width: 70%;
    
 }
 
 #agree {
    position: relative;
-   bottom: 16px;
-   left: 180px;
+   left: 115px;
+   bottom: 15px;
 }
 
 
