@@ -413,13 +413,6 @@ main label {
          color: white;
          width: 100%;
          margin-top: 100px;
-
-
-      }
-
-      .text-field {
-        position: relative;
-        right: 0px;
       }
 
       #agree {
@@ -443,3 +436,77 @@ main label {
          font-size: 200%;
       }
    }
+
+   /* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+/* Main content */
+
+/* Hero section */
+#hero {
+   height: 480px;
+   width: 100%;
+   background: url("../images/lift.jpg") no-repeat center center/cover;
+   position: relative;
+}
+
+
+/* Footer */
+#social-networks {
+   text-align: center;
+   padding: 20px;
+   display: flex;
+   justify-content: space-evenly;
+   list-style-type: none;
+   position: relative;
+}
+
+#social-networks i {
+   font-size: 200%;
+   padding: 5%;
+   color: #3a3a3a;
+}
+
+
+/* Signup page */
+
+#fieldset {
+   color: white;
+   width: 100%;
+   margin-top: -15px;
+}
+
+#signup-form {
+   position: relative;
+   left: 200px;
+   display: flex;
+   flex-direction: column;
+}
+
+.form-labels {
+   position: relative;
+   right: 200px;
+}
+
+#agree {
+   position: relative;
+   left: 140px;
+   bottom: 20px;
+}
+
+#submit-button {
+   width: 20%;
+   height: 30%;
+   position: relative;
+   right: -125px;
+}
+
+ /* Contact Us section */
+ #contact-section {
+   position: relative;
+   bottom: 95px;
+   background-color: rgba(255, 255, 255, 0.5);
+   font-size: 200%;
+}
+
+}
