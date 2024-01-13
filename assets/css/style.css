@@ -329,6 +329,22 @@ main label {
          font-size: 220%;
       }
 
+      /* Footer */
+#social-networks {
+   text-align: center;
+   padding: 20px;
+   display: flex;
+   justify-content: space-evenly;
+   list-style-type: none;
+   position: relative;
+}
+
+#social-networks i {
+   font-size: 250%;
+   padding: 0.5%;
+   color: #3a3a3a;
+}
+
       /* All 3 pages */
       .main-content {
          font-size: 150%;
@@ -407,7 +423,7 @@ main label {
       #fieldset {
          color: white;
          width: 100%;
-         margin-top: 100px;
+         margin-top: -10px;
       }
 
       #agree {
@@ -426,7 +442,7 @@ main label {
       /* Contact Us section */
       #contact-section {
          position: relative;
-         bottom: -200px;
+         bottom: -380px;
          background-color: rgba(255, 255, 255, 0.5);
          font-size: 200%;
       }
