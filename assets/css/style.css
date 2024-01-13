@@ -497,17 +497,22 @@ main label {
    right: 200px;
 }
 
+.text-field {
+   position: relative;
+   left: 130px;
+}
+
 #agree {
    position: relative;
-   left: 140px;
-   bottom: 20px;
+   left: 250px;
+   bottom: 16px;
 }
 
 #submit-button {
    width: 20%;
    height: 30%;
    position: relative;
-   right: -125px;
+   right: -380px;
 }
 
  /* Contact Us section */
