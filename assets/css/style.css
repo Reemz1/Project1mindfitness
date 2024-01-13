@@ -435,8 +435,8 @@ main label {
 
    #agree {
       position: relative;
-      left: 140px;
-      bottom: 20px;
+      left: 120px;
+      bottom: 16px;
    }
 
    #submit-button {
