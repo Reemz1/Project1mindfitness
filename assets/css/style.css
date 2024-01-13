@@ -1,5 +1,5 @@
 /* Google fonts import */
- @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 /* Asterisk wildcard selector to override default styles set by the browser */
 * {
@@ -18,7 +18,9 @@ body {
    font-family: 'Quicksand', sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
    text-transform: uppercase;
    letter-spacing: 1px;
 }
@@ -85,7 +87,8 @@ nav {
 }
 
 /* Main content */
-main { /* Make main element take up any surplus space to push footer down */
+main {
+   /* Make main element take up any surplus space to push footer down */
    flex: 1 0 auto;
    margin-top: 70px;
 }
@@ -241,7 +244,7 @@ main label {
 #fieldset {
    color: white;
    width: 70%;
-   
+
 }
 
 #agree {
@@ -254,8 +257,8 @@ main label {
    width: 50%;
 }
 
-  /* Contact Us section */
-  #contact-section {
+/* Contact Us section */
+#contact-section {
    position: relative;
    bottom: -50px;
    background-color: rgba(255, 255, 255, 0.5);
@@ -263,34 +266,36 @@ main label {
 
 /* Media query: styles applied to tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
    /* Header */
-   nav {display: block;
-   position: relative;
-   box-shadow: none;
-   width: fit-content;
-   padding-right: 0.5rem;
+   nav {
+      display: block;
+      position: relative;
+      box-shadow: none;
+      width: fit-content;
+      padding-right: 0.5rem;
    }
 
    /* Header */
-header {
-   background-color: white;
-   padding: 0.5em 1rem;
-   position: fixed;
-   z-index: 99;
-   width: 100%;
-   box-shadow: 1px 1px 1px #2c42b1;
-   display: flex;
-   justify-content: space-between;
-   align-items: baseline;
-   font-size: 80%;
-}
+   header {
+      background-color: white;
+      padding: 0.5em 1rem;
+      position: fixed;
+      z-index: 99;
+      width: 100%;
+      box-shadow: 1px 1px 1px #2c42b1;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-size: 80%;
+   }
 
    #menu {
       display: flex;
       font-size: 160%;
    }
-   
-   #menu > li {
+
+   #menu>li {
       padding-left: 1rem;
    }
 
@@ -307,7 +312,7 @@ header {
    /* Main Content */
    main {
       /* Push main content down to accomodate larger header */
-      margin-top: 105px; 
+      margin-top: 105px;
       text-align: center;
    }
 
@@ -316,126 +321,125 @@ header {
       height: 1000px;
       width: 100%;
       position: relative;
-   
-   #cover-text {
-      /* Final rgba value sets opacity so that it is semi-transparent */
-      background-color: rgba(255, 255, 255, 0.5);
-      position: relative;
-      bottom: -800px;
    }
 
-   #cover-text-font {
-      font-size: 200%;
+      #cover-text {
+         /* Final rgba value sets opacity so that it is semi-transparent */
+         background-color: rgba(255, 255, 255, 0.5);
+         position: relative;
+         bottom: -800px;
+      }
+
+      #cover-text-font {
+         font-size: 200%;
+      }
+
+      /* All 3 pages */
+      .main-content {
+         font-size: 150%;
+      }
+
+      .main-content-header {
+         font-size: 120%;
+      }
+
+      /* Upper body page */
+
+      #upper-body-header {
+         font-size: 200%;
+         background-color: aliceblue;
+         margin-top: 5px;
+      }
+
+      main h2 {
+         font-size: 100px;
+         background-color: aliceblue;
+         margin-top: 100px;
+      }
+
+      /* Lower body page */
+
+      #lower-body-header {
+         font-size: 200%;
+         background-color: aliceblue;
+         margin-top: 5px;
+      }
+
+      main h2 {
+         font-size: 200%;
+         background-color: aliceblue;
+      }
+
+      /* Sign up page */
+
+      main h2 {
+         font-size: 200%;
+         background-color: aliceblue;
+      }
+
+      #sign-up-header {
+         font-size: 200%;
+         background-color: aliceblue;
+         margin-top: 5px;
+      }
+
+      #signup-form {
+         position: relative;
+         left: 200px;
+         display: flex;
+         flex-direction: column;
+      }
+
+      .form-labels {
+         position: relative;
+         right: 200px;
+      }
+
+      #signup-image {
+         background: URL("../images/signup-background.jpg") no-repeat center center/cover;
+         width: 100%;
+         height: 500px;
+      }
+
+      main input {
+         width: 50%;
+      }
+
+      main label {
+         color: white;
+      }
+
+      #fieldset {
+         color: white;
+         width: 100%;
+         margin-top: 100px;
+
+
+      }
+
+      .text-field {
+        position: relative;
+        right: 0px;
+      }
+
+      #agree {
+         position: relative;
+         left: 140px;
+         bottom: 20px;
+      }
+
+      #submit-button {
+         width: 20%;
+         height: 30%;
+         position: relative;
+         right: -125px;
+      }
+
+      /* Contact Us section */
+      #contact-section {
+         position: relative;
+         bottom: -200px;
+         background-color: rgba(255, 255, 255, 0.5);
+         font-size: 200%;
+      }
    }
-
-   /* All 3 pages */
-   .main-content {
-      font-size: 150%;
-   }
-
-   .main-content-header {
-      font-size: 120%;
-   }
-
-    /* Upper body page */
-
-    #upper-body-header {
-      font-size: 200%;
-      background-color: aliceblue;
-      margin-top: 5px;
-   }
-
-main h2 {
-   font-size: 100px;
-   background-color: aliceblue;
-   margin-top: 100px;
-}
-
-/* Lower body page */
-
-#lower-body-header {
-   font-size: 200%;
-   background-color: aliceblue;
-   margin-top: 5px;
-}
-
-main h2 {
-   font-size: 200%;
-   background-color: aliceblue;
-}
-
-/* Sign up page */
-
-main h2 {
-   font-size: 200%;
-   background-color: aliceblue;
-}
-
-#sign-up-header {
-   font-size: 200%;
-   background-color: aliceblue;
-   margin-top: 5px;
-}
-
-#signup-form {
-   position: relative;
-   left: 200px;
-   display: flex;
-   flex-direction: column;
-}
-
-.form-labels {
-   position: relative;
-   right: 200px;
-   font-size: 150%;
-}
-
-#signup-image {
-   background: URL("../images/signup-background.jpg") no-repeat center center/cover;
-   width: 100%;
-   height: 500px;
-}
-
-main input {
-   width: 50%;
-}
-
-main label {
-   color: white;
-}
-
-#fieldset {
-   color: white;
-   width: 100%;
-   
-}
-
-#agree {
-   position: relative;
-   left: 140px;
-   bottom: 20px;
-}
-
-#submit-button {
-   width: 20%;
-   height: 30%;
-   position: relative;
-   right: -15%;
-}
-
-  /* Contact Us section */
-  #contact-section {
-   position: relative;
-   bottom: -300px;
-   background-color: rgba(255, 255, 255, 0.5);
-   font-size: 200%;
-}
-
-}
-
-/* Media query: styles applied to laptops and larger (992px and up) */
-@media screen and (min-width: 992px) {
-   #menu a:hover{
-      border-bottom: 1px solid #3a3a3a;
-   }
-}
