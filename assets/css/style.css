@@ -18,9 +18,7 @@ body {
    font-family: 'Quicksand', sans-serif;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
    text-transform: uppercase;
    letter-spacing: 1px;
 }
@@ -43,8 +41,6 @@ header a {
    text-decoration: none;
    color: inherit;
 }
-
-
 
 p {
    color: black;
@@ -95,7 +91,7 @@ main {
 
 /* Hero section */
 #hero {
-   height: 500px;
+   height: 510px;
    width: 100%;
    background: url("../images/lift.jpg") no-repeat center center/cover;
    position: relative;
@@ -109,7 +105,6 @@ main {
    position: absolute;
    bottom: 30px;
 }
-
 
 /* Footer */
 #social-networks {
@@ -327,11 +322,11 @@ main label {
          /* Final rgba value sets opacity so that it is semi-transparent */
          background-color: rgba(255, 255, 255, 0.5);
          position: relative;
-         bottom: -800px;
+         bottom: -750px;
       }
 
       #cover-text-font {
-         font-size: 200%;
+         font-size: 220%;
       }
 
       /* All 3 pages */
