@@ -46,14 +46,11 @@ p {
    color: black;
 }
 
+/* Menu in dropdown navigation bar */
 #menu {
    list-style: none;
    letter-spacing: normal;
    font-size: 130%;
-}
-
-.bold {
-   text-transform: uppercase;
 }
 
 /* For the dropdown navbar */
@@ -97,6 +94,7 @@ main {
    position: relative;
 }
 
+
 #cover-text {
    /* Final rgba value sets opacity so that it is semi-transparent */
    background-color: rgba(255, 255, 255, 0.5);
@@ -130,10 +128,12 @@ main {
    margin-top: 20px;
 }
 
+/* Font size for title of each exercise */
 div h3 {
    font-size: 15px;
 }
 
+/* Dimensions of pictures on upperbody page */
 #bicep-curls-image {
    width: 80%;
    height: 80%;
@@ -166,16 +166,19 @@ div h3 {
 
 /* Lower body page */
 
+/* Header styles */
 #lower-body-header {
    font-size: 20px;
    background-color: aliceblue;
    margin-top: 20px;
 }
 
+/* Font size for title of each exercise */
 div h3 {
    font-size: 15px;
 }
 
+/* Dimensions of pictures on lowerbody page */
 #squats-image {
    width: 80%;
    height: 80%;
@@ -208,49 +211,57 @@ div h3 {
 
 /* Sign up page */
 
+/* Header styles */
 #sign-up-header {
    font-size: 20px;
    background-color: aliceblue;
    margin-top: 20px;
 }
 
+/* Positioning of signup form */
 #signup-form {
    position: relative;
    display: flex;
    flex-direction: column;
 }
 
+/* Dimesions of background image */
 #signup-image {
    background: URL("../images/signup-background.jpg") no-repeat center center/cover;
    width: 100%;
    height: 400px;
 }
 
+/* Width of input fields */
 main input {
    width: 50%;
 }
 
+/* Colour of field labels */
 main label {
    color: white;
 }
 
+/* Styles for fieldset */
 #fieldset {
    color: white;
    width: 70%;
    position: relative;
 }
 
+/* Positioning for checkbox input field */
 #agree {
    position: relative;
    left: 115px;
    bottom: 15px;
 }
 
+/* Width of submit buttom */
 #submit-button {
    width: 50%;
 }
 
-/* Contact Us section */
+/* Contact Us section styles */
 #contact-section {
    position: relative;
    bottom: -50px;
@@ -317,137 +328,134 @@ main label {
       position: relative;
    }
 
-      #cover-text {
-         /* Final rgba value sets opacity so that it is semi-transparent */
-         background-color: rgba(255, 255, 255, 0.5);
-         position: relative;
-         bottom: -750px;
-      }
-
-      #cover-text-font {
-         font-size: 220%;
-      }
-
-      /* Footer */
-#social-networks {
-   text-align: center;
-   padding: 20px;
-   display: flex;
-   justify-content: space-evenly;
-   list-style-type: none;
-   position: relative;
-}
-
-#social-networks i {
-   font-size: 250%;
-   padding: 0.5%;
-   color: #3a3a3a;
-}
-
-      /* All 3 pages */
-      .main-content {
-         font-size: 150%;
-      }
-
-      .main-content-header {
-         font-size: 120%;
-      }
-
-      /* Upper body page */
-
-      #upper-body-header {
-         font-size: 200%;
-         background-color: aliceblue;
-         margin-top: 5px;
-      }
-
-      main h2 {
-         font-size: 100px;
-         background-color: aliceblue;
-         margin-top: 100px;
-      }
-
-      /* Lower body page */
-
-      #lower-body-header {
-         font-size: 200%;
-         background-color: aliceblue;
-         margin-top: 5px;
-      }
-
-      main h2 {
-         font-size: 200%;
-         background-color: aliceblue;
-      }
-
-      /* Sign up page */
-
-      main h2 {
-         font-size: 200%;
-         background-color: aliceblue;
-      }
-
-      #sign-up-header {
-         font-size: 200%;
-         background-color: aliceblue;
-         margin-top: 5px;
-      }
-
-      #signup-form {
-         position: relative;
-         left: 200px;
-         display: flex;
-         flex-direction: column;
-      }
-
-      .form-labels {
-         position: relative;
-         right: 200px;
-      }
-
-      #signup-image {
-         background: URL("../images/signup-background.jpg") no-repeat center center/cover;
-         width: 100%;
-         height: 500px;
-      }
-
-      main input {
-         width: 50%;
-      }
-
-      main label {
-         color: white;
-      }
-
-      #fieldset {
-         color: white;
-         width: 100%;
-         margin-top: -10px;
-      }
-
-      #agree {
-         position: relative;
-         left: 140px;
-         bottom: 20px;
-      }
-
-      #submit-button {
-         width: 20%;
-         height: 30%;
-         position: relative;
-         right: -125px;
-      }
-
-      /* Contact Us section */
-      #contact-section {
-         position: relative;
-         bottom: -380px;
-         background-color: rgba(255, 255, 255, 0.5);
-         font-size: 200%;
-      }
+   #cover-text {
+      /* Final rgba value sets opacity so that it is semi-transparent */
+      background-color: rgba(255, 255, 255, 0.5);
+      position: relative;
+      bottom: -750px;
    }
 
-   /* Large devices (laptops and desktops, 992px and up) */
+   #cover-text-font {
+      font-size: 220%;
+   } 
+
+   #social-networks i {
+      font-size: 250%;
+      padding: 0.5%;
+      color: #3a3a3a;
+   }
+
+   /* All 3 pages */
+
+   /* Font for paragraphs in each page */
+   .main-content {
+      font-size: 150%;
+   }
+ 
+   /* Header at the top of each page */
+   .main-content-header {
+      font-size: 120%;
+   }
+
+      
+   /* Upper body page */
+
+   /* Header styles */
+   #upper-body-header {
+      font-size: 200%;
+      background-color: aliceblue;
+      margin-top: 5px;
+   }
+
+   main h2 {
+      font-size: 100px;
+      background-color: aliceblue;
+      margin-top: 100px;
+   }
+
+   /* Lower body page */
+
+   /* Header styles */
+   #lower-body-header {
+      font-size: 200%;
+      background-color: aliceblue;
+      margin-top: 5px;
+   }
+
+   main h2 {
+      font-size: 200%;
+      background-color: aliceblue;
+   }
+
+   /* Sign up page */
+
+   main h2 {
+      font-size: 200%;
+      background-color: aliceblue;
+   }
+
+   /* Header styles */
+   #sign-up-header {
+      font-size: 200%;
+      background-color: aliceblue;
+      margin-top: 5px;
+   }
+
+   #signup-form {
+      position: relative;
+      left: 200px;
+      display: flex;
+      flex-direction: column;
+   }
+
+   .form-labels {
+      position: relative;
+      right: 200px;
+   }
+
+   #signup-image {
+      background: URL("../images/signup-background.jpg") no-repeat center center/cover;
+      width: 100%;
+      height: 500px;
+   }
+
+   main input {
+      width: 50%;
+   }
+
+   main label {
+      color: white;
+   }
+
+   #fieldset {
+      color: white;
+      width: 100%;
+      margin-top: -10px;
+   }
+
+   #agree {
+      position: relative;
+      left: 140px;
+      bottom: 20px;
+   }
+
+   #submit-button {
+      width: 20%;
+      height: 30%;
+      position: relative;
+      right: -125px;
+   }
+
+   /* Contact Us section */
+   #contact-section {
+      position: relative;
+      bottom: -380px;
+      background-color: rgba(255, 255, 255, 0.5);
+      font-size: 200%;
+   }
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
 
 /* Main content */
