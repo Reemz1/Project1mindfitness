@@ -507,6 +507,71 @@ main label {
       color: #3a3a3a;
    }
 
+   /* Upperbody page */
+
+   /* Dimensions of pictures on upperbody page */
+   #bicep-curls-image {
+      width: 50%;
+      height: 80%;
+   }
+
+   #bicep-muscles-worked-image {
+      width: 50%;
+      height: 80%;
+   }
+
+   #bent-over-rows-image {
+      width: 50%;
+      height: 80%;
+   }
+
+   #bent-over-rows-muscles-worked-image {
+      width: 50%;
+      height: 80%;
+   }
+
+   #dumbbell-shoulder-press-image {
+      width: 50%;
+      height: 80%;
+   }
+
+   #dumbbell-shoulder-press-muscles-worked-image {
+      width: 50%;
+      height: 80%;
+   }
+
+   /* Lower body page */
+
+   /* Dimensions of pictures on lowerbody page */
+   #squats-image {
+      width: 50%;
+      height: 80%;
+   }
+
+   #squats-muscles-worked-image {
+      width: 50%;
+      height: 80%;
+   }
+
+   #lunge-image {
+      width: 50%;
+      height: 80%;
+   }
+
+   #lunges-muscles-worked-image {
+      width: 50%;
+      height: 80%;
+   }
+
+   #hip-thrust-image {
+      width: 50%;
+      height: 80%;
+   }
+
+   #hip-thrust-muscles-worked-image {
+      width: 50%;
+      height: 80%;
+   }
 
    /* Signup page */
 
