@@ -2,11 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 /* Asterisk wildcard selector to override default styles set by the browser */
+/* Code taken from https: //github.com/Code-Institute-Solutions/love-running-v3/commit/137152f8ed1fe1b8d89b5d0765bf0b02cb1134d1#diff-0532d02df172bdfc8cb2a896c181946b5523bbbeae994c1871ffcfe47e8c20b3 */
+
 * {
    padding: 0;
    margin: 0;
    box-sizing: border-box;
 }
+
+/* Code taken and adapted from https: //github.com/Code-Institute-Solutions/love-running-v3/commit/137152f8ed1fe1b8d89b5d0765bf0b02cb1134d1#diff-0532d02df172bdfc8cb2a896c181946b5523bbbeae994c1871ffcfe47e8c20b3 */
 
 /* General styles */
 body {
@@ -18,10 +22,14 @@ body {
    font-family: 'Quicksand', sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
    text-transform: uppercase;
    letter-spacing: 1px;
 }
+
+/* Code taken from https://github.com/Code-Institute-Solutions/love-running-v3/commit/137152f8ed1fe1b8d89b5d0765bf0b02cb1134d1#diff-0532d02df172bdfc8cb2a896c181946b5523bbbeae994c1871ffcfe47e8c20b3 */
 
 /* Header */
 header {
@@ -37,6 +45,7 @@ header {
    font-size: 70%;
 }
 
+/* Code taken from https://github.com/Code-Institute-Solutions/love-running-v3/commit/137152f8ed1fe1b8d89b5d0765bf0b02cb1134d1#diff-0532d02df172bdfc8cb2a896c181946b5523bbbeae994c1871ffcfe47e8c20b3 */
 header a {
    text-decoration: none;
    color: inherit;
@@ -46,6 +55,7 @@ p {
    color: black;
 }
 
+/* Code taken from https://github.com/Code-Institute-Solutions/love-running-v3/commit/137152f8ed1fe1b8d89b5d0765bf0b02cb1134d1#diff-0532d02df172bdfc8cb2a896c181946b5523bbbeae994c1871ffcfe47e8c20b3 */
 /* Menu in dropdown navigation bar */
 #menu {
    list-style: none;
@@ -53,6 +63,7 @@ p {
    font-size: 130%;
 }
 
+/* Code taken from https://github.com/Code-Institute-Solutions/love-running-v3/commit/137152f8ed1fe1b8d89b5d0765bf0b02cb1134d1#diff-0532d02df172bdfc8cb2a896c181946b5523bbbeae994c1871ffcfe47e8c20b3 */
 /* For the dropdown navbar */
 nav {
    position: absolute;
@@ -65,6 +76,7 @@ nav {
    top: 100%;
 }
 
+/* Code taken from https://github.com/Code-Institute-Solutions/love-running-v3/commit/137152f8ed1fe1b8d89b5d0765bf0b02cb1134d1#diff-0532d02df172bdfc8cb2a896c181946b5523bbbeae994c1871ffcfe47e8c20b3 */
 /* Nav-toggle */
 #nav-toggle:checked~nav {
    display: block;
@@ -79,6 +91,7 @@ nav {
    margin-left: 0.7rem;
 }
 
+/* Code taken from https://github.com/Code-Institute-Solutions/love-running-v3/commit/137152f8ed1fe1b8d89b5d0765bf0b02cb1134d1#diff-0532d02df172bdfc8cb2a896c181946b5523bbbeae994c1871ffcfe47e8c20b3 */
 /* Main content */
 main {
    /* Make main element take up any surplus space to push footer down */
@@ -86,6 +99,7 @@ main {
    margin-top: 70px;
 }
 
+/* Code taken from https://github.com/Code-Institute-Solutions/love-running-v3/commit/137152f8ed1fe1b8d89b5d0765bf0b02cb1134d1#diff-0532d02df172bdfc8cb2a896c181946b5523bbbeae994c1871ffcfe47e8c20b3 */
 /* Hero section */
 #hero {
    height: 510px;
@@ -94,6 +108,7 @@ main {
    position: relative;
 }
 
+/* Code taken from https://github.com/Code-Institute-Solutions/love-running-v3/commit/137152f8ed1fe1b8d89b5d0765bf0b02cb1134d1#diff-0532d02df172bdfc8cb2a896c181946b5523bbbeae994c1871ffcfe47e8c20b3 */
 #cover-text {
    /* Final rgba value sets opacity so that it is semi-transparent */
    background-color: rgba(255, 255, 255, 0.5);
@@ -103,6 +118,7 @@ main {
    bottom: 30px;
 }
 
+/* Code taken from https://github.com/Code-Institute-Solutions/love-running-v3/commit/137152f8ed1fe1b8d89b5d0765bf0b02cb1134d1#diff-0532d02df172bdfc8cb2a896c181946b5523bbbeae994c1871ffcfe47e8c20b3 */
 /* Footer */
 #social-networks {
    text-align: center;
@@ -337,7 +353,7 @@ main label {
 
    #cover-text-font {
       font-size: 220%;
-   } 
+   }
 
    /* Icons within footer */
    #social-networks i {
@@ -352,13 +368,13 @@ main label {
    .main-content {
       font-size: 150%;
    }
- 
+
    /* Header at the top of each page */
    .main-content-header {
       font-size: 120%;
    }
 
-      
+
    /* Upper body page */
 
    /* Header styles */
@@ -425,7 +441,7 @@ main label {
       width: 100%;
       height: 500px;
    }
- 
+
    /* Width of input fields */
    main input {
       width: 50%;
@@ -470,18 +486,18 @@ main label {
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
 
-  /* Main content */
+   /* Main content */
 
-  /* Hero section */
-  #hero {
+   /* Hero section */
+   #hero {
       height: 700px;
       width: 100%;
       background: url("../images/lift.jpg") no-repeat center center/cover;
       position: relative;
    }
 
-  #cover-text {
-   /* Final rgba value sets opacity so that it is semi-transparent */
+   #cover-text {
+      /* Final rgba value sets opacity so that it is semi-transparent */
       background-color: rgba(255, 255, 255, 0.5);
       font-size: 70%;
       text-transform: none;
