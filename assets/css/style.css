@@ -493,7 +493,7 @@ main label {
    /* Footer */
    #social-networks {
       text-align: center;
-      padding: 20px;
+      padding: 10px;
       display: flex;
       justify-content: space-evenly;
       list-style-type: none;
