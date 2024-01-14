@@ -94,7 +94,6 @@ main {
    position: relative;
 }
 
-
 #cover-text {
    /* Final rgba value sets opacity so that it is semi-transparent */
    background-color: rgba(255, 255, 255, 0.5);
@@ -114,6 +113,7 @@ main {
    position: relative;
 }
 
+/* Icons within footer */
 #social-networks i {
    font-size: 200%;
    padding: 5%;
@@ -339,6 +339,7 @@ main label {
       font-size: 220%;
    } 
 
+   /* Icons within footer */
    #social-networks i {
       font-size: 250%;
       padding: 0.5%;
@@ -367,6 +368,7 @@ main label {
       margin-top: 5px;
    }
 
+   /* Header at the top of upperbody page */
    main h2 {
       font-size: 100px;
       background-color: aliceblue;
@@ -382,6 +384,7 @@ main label {
       margin-top: 5px;
    }
 
+   /* Header at the top of lowerbody page */
    main h2 {
       font-size: 200%;
       background-color: aliceblue;
@@ -389,6 +392,7 @@ main label {
 
    /* Sign up page */
 
+   /* Header at the top of signup page */
    main h2 {
       font-size: 200%;
       background-color: aliceblue;
@@ -401,6 +405,7 @@ main label {
       margin-top: 5px;
    }
 
+   /* Signup form styles */
    #signup-form {
       position: relative;
       left: 200px;
@@ -408,37 +413,44 @@ main label {
       flex-direction: column;
    }
 
+   /* Form label styles */
    .form-labels {
       position: relative;
       right: 200px;
    }
 
+   /* background image for signup page */
    #signup-image {
       background: URL("../images/signup-background.jpg") no-repeat center center/cover;
       width: 100%;
       height: 500px;
    }
-
+ 
+   /* Width of input fields */
    main input {
       width: 50%;
    }
 
+   /* Colour of labels */
    main label {
       color: white;
    }
 
+   /* Form outline field styles */
    #fieldset {
       color: white;
       width: 100%;
       margin-top: -10px;
    }
 
+   /* Checkbox input field styles */
    #agree {
       position: relative;
       left: 120px;
       bottom: 16px;
    }
 
+   /* Submit button styles */
    #submit-button {
       width: 20%;
       height: 30%;
@@ -458,87 +470,94 @@ main label {
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
 
-/* Main content */
+  /* Main content */
 
-/* Hero section */
-#hero {
-   height: 500px;
-   width: 100%;
-   background: url("../images/lift.jpg") no-repeat center center/cover;
-   position: relative;
-}
+  /* Hero section */
+  #hero {
+      height: 500px;
+      width: 100%;
+      background: url("../images/lift.jpg") no-repeat center center/cover;
+      position: relative;
+   }
 
-#cover-text {
+  #cover-text {
    /* Final rgba value sets opacity so that it is semi-transparent */
-   background-color: rgba(255, 255, 255, 0.5);
-   font-size: 70%;
-   text-transform: none;
-   position: absolute;
-   bottom: 10px;
-}
+      background-color: rgba(255, 255, 255, 0.5);
+      font-size: 70%;
+      text-transform: none;
+      position: absolute;
+      bottom: 10px;
+   }
+
+   
+   /* Footer */
+   #social-networks {
+      text-align: center;
+      padding: 20px;
+      display: flex;
+      justify-content: space-evenly;
+      list-style-type: none;
+      position: relative;
+   }
+
+   /* Icons within footer */
+   #social-networks i {
+      font-size: 200%;
+      padding: 5%;
+      color: #3a3a3a;
+   }
 
 
-/* Footer */
-#social-networks {
-   text-align: center;
-   padding: 20px;
-   display: flex;
-   justify-content: space-evenly;
-   list-style-type: none;
-   position: relative;
-}
+   /* Signup page */
 
-#social-networks i {
-   font-size: 200%;
-   padding: 5%;
-   color: #3a3a3a;
-}
+   /* Form outline field styles */
+   #fieldset {
+      color: white;
+      width: 100%;
+      margin-top: -15px;
+   }
 
+   /* Signup form styles */
+   #signup-form {
+      position: relative;
+      left: 200px;
+      display: flex;
+      flex-direction: column;
+   }
 
-/* Signup page */
+   /* Form label styles */
+   .form-labels {
+      position: relative;
+      right: 200px;
+   }
 
-#fieldset {
-   color: white;
-   width: 100%;
-   margin-top: -15px;
-}
+   /* Input field styles */
+   .text-field {
+      position: relative;
+      left: 130px;
+   }
 
-#signup-form {
-   position: relative;
-   left: 200px;
-   display: flex;
-   flex-direction: column;
-}
+   /* Checkbox input field styles */
+   #agree {
+      position: relative;
+      left: 250px;
+      bottom: 16px;
+   }
 
-.form-labels {
-   position: relative;
-   right: 200px;
-}
+   /* Submit button styles */
+   #submit-button {
+      width: 20%;
+      height: 30%;
+      position: relative;
+      right: -380px;
+   }
 
-.text-field {
-   position: relative;
-   left: 130px;
-}
-
-#agree {
-   position: relative;
-   left: 250px;
-   bottom: 16px;
-}
-
-#submit-button {
-   width: 20%;
-   height: 30%;
-   position: relative;
-   right: -380px;
-}
-
- /* Contact Us section */
- #contact-section {
-   position: relative;
-   bottom: 95px;
-   background-color: rgba(255, 255, 255, 0.5);
-   font-size: 200%;
-}
+   /* Contact Us section */
+   #contact-section {
+      position: relative;
+      bottom: 95px;
+      background-color: rgba(255, 255, 255, 0.5);
+      font-size: 200%;
+   }
 
 }
