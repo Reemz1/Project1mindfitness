@@ -2,16 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 /* Asterisk wildcard selector to override default styles set by the browser */
-/* Code taken from https: //github.com/Code-Institute-Solutions/love-running-v3/commit/137152f8ed1fe1b8d89b5d0765bf0b02cb1134d1#diff-0532d02df172bdfc8cb2a896c181946b5523bbbeae994c1871ffcfe47e8c20b3 */
-
+/* Code taken from https://github.com/Code-Institute-Solutions/love-running-v3.git */
 * {
    padding: 0;
    margin: 0;
    box-sizing: border-box;
 }
 
-/* Code taken and adapted from https: //github.com/Code-Institute-Solutions/love-running-v3/commit/137152f8ed1fe1b8d89b5d0765bf0b02cb1134d1#diff-0532d02df172bdfc8cb2a896c181946b5523bbbeae994c1871ffcfe47e8c20b3 */
-
+/* Code taken and adapted from https://github.com/Code-Institute-Solutions/love-running-v3.git */
 /* General styles */
 body {
    min-height: 100vh;
@@ -29,8 +27,7 @@ h3 {
    letter-spacing: 1px;
 }
 
-/* Code taken from https://github.com/Code-Institute-Solutions/love-running-v3/commit/137152f8ed1fe1b8d89b5d0765bf0b02cb1134d1#diff-0532d02df172bdfc8cb2a896c181946b5523bbbeae994c1871ffcfe47e8c20b3 */
-
+/* Code taken and adapted from https://github.com/Code-Institute-Solutions/love-running-v3.git */
 /* Header */
 header {
    background-color: white;
@@ -45,7 +42,7 @@ header {
    font-size: 70%;
 }
 
-/* Code taken from https://github.com/Code-Institute-Solutions/love-running-v3/commit/137152f8ed1fe1b8d89b5d0765bf0b02cb1134d1#diff-0532d02df172bdfc8cb2a896c181946b5523bbbeae994c1871ffcfe47e8c20b3 */
+/* Code taken from https://github.com/Code-Institute-Solutions/love-running-v3.git */
 header a {
    text-decoration: none;
    color: inherit;
@@ -55,7 +52,7 @@ p {
    color: black;
 }
 
-/* Code taken from https://github.com/Code-Institute-Solutions/love-running-v3/commit/137152f8ed1fe1b8d89b5d0765bf0b02cb1134d1#diff-0532d02df172bdfc8cb2a896c181946b5523bbbeae994c1871ffcfe47e8c20b3 */
+/* Code taken from https://github.com/Code-Institute-Solutions/love-running-v3.git */
 /* Menu in dropdown navigation bar */
 #menu {
    list-style: none;
@@ -63,7 +60,7 @@ p {
    font-size: 130%;
 }
 
-/* Code taken from https://github.com/Code-Institute-Solutions/love-running-v3/commit/137152f8ed1fe1b8d89b5d0765bf0b02cb1134d1#diff-0532d02df172bdfc8cb2a896c181946b5523bbbeae994c1871ffcfe47e8c20b3 */
+/* Code taken from https://github.com/Code-Institute-Solutions/love-running-v3.git */
 /* For the dropdown navbar */
 nav {
    position: absolute;
@@ -76,7 +73,7 @@ nav {
    top: 100%;
 }
 
-/* Code taken from https://github.com/Code-Institute-Solutions/love-running-v3/commit/137152f8ed1fe1b8d89b5d0765bf0b02cb1134d1#diff-0532d02df172bdfc8cb2a896c181946b5523bbbeae994c1871ffcfe47e8c20b3 */
+/* Code taken from https://github.com/Code-Institute-Solutions/love-running-v3.git */
 /* Nav-toggle */
 #nav-toggle:checked~nav {
    display: block;
@@ -91,7 +88,7 @@ nav {
    margin-left: 0.7rem;
 }
 
-/* Code taken from https://github.com/Code-Institute-Solutions/love-running-v3/commit/137152f8ed1fe1b8d89b5d0765bf0b02cb1134d1#diff-0532d02df172bdfc8cb2a896c181946b5523bbbeae994c1871ffcfe47e8c20b3 */
+/* Code taken from https://github.com/Code-Institute-Solutions/love-running-v3.git */
 /* Main content */
 main {
    /* Make main element take up any surplus space to push footer down */
@@ -99,7 +96,7 @@ main {
    margin-top: 70px;
 }
 
-/* Code taken from https://github.com/Code-Institute-Solutions/love-running-v3/commit/137152f8ed1fe1b8d89b5d0765bf0b02cb1134d1#diff-0532d02df172bdfc8cb2a896c181946b5523bbbeae994c1871ffcfe47e8c20b3 */
+/* Code taken and adapted from https://github.com/Code-Institute-Solutions/love-running-v3.git */
 /* Hero section */
 #hero {
    height: 510px;
@@ -108,7 +105,7 @@ main {
    position: relative;
 }
 
-/* Code taken from https://github.com/Code-Institute-Solutions/love-running-v3/commit/137152f8ed1fe1b8d89b5d0765bf0b02cb1134d1#diff-0532d02df172bdfc8cb2a896c181946b5523bbbeae994c1871ffcfe47e8c20b3 */
+/* Code taken and adapted from https://github.com/Code-Institute-Solutions/love-running-v3.git */
 #cover-text {
    /* Final rgba value sets opacity so that it is semi-transparent */
    background-color: rgba(255, 255, 255, 0.5);
@@ -118,7 +115,7 @@ main {
    bottom: 30px;
 }
 
-/* Code taken from https://github.com/Code-Institute-Solutions/love-running-v3/commit/137152f8ed1fe1b8d89b5d0765bf0b02cb1134d1#diff-0532d02df172bdfc8cb2a896c181946b5523bbbeae994c1871ffcfe47e8c20b3 */
+/* Code taken from https://github.com/Code-Institute-Solutions/love-running-v3.git */
 /* Footer */
 #social-networks {
    text-align: center;
