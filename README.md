@@ -53,14 +53,14 @@ At the moment there are three workouts documented on each page, however there ar
 
 ### Signup Page Features ###
 
-![Form on signup page](image-18.png)
+![Form on signup page](image-6.png)
 
 - Above is a screenshot of the form element in the signup page.
 - The form includes a fieldset stating that this is where the user enters their details. The details being: their first name, last name,  and email address.
 - There is also a checkbox to confirm agreement to terms and conditions, and a submit button.
 
 
-![Contact us section on signup page](image-19.png)
+![Contact us section on signup page](image-7.png)
 
 - Above is a screenshot of the Contact section in the signup page.
 - This section includes a phone number and email by which users can contact regarding features of the page, and questions or suggestions.
@@ -74,4 +74,16 @@ At the moment there are three workouts documented on each page, however there ar
 
 ## Media ##
 
-- The image depicting bicep curls on the upperbody page was taken from [pikwizard.com](https://pikwizard.com/s/photo/bicep+curls/)
+- The image depicting bicep curls on the upperbody page was taken from [stock.adobe.com](https://stock.adobe.com/images/id/70166543?clickref=1101lyb6wRp3&mv=affiliate&mv2=pz&as_camptype=&as_channel=affiliate&as_source=partnerize&as_campaign=wbm)
+
+- The image depicting bent over rows on the upperbody page was taken from [stock.adobe.com](https://stock.adobe.com/uk/images/id/508577358?clickref=1100lyaCJrn2&mv=affiliate&mv2=pz&as_camptype=&as_channel=affiliate&as_source=partnerize&as_campaign=wbm)
+
+- The image depicting dumbbell shoulder press on the upperbody page was taken from [stock.adobe.com](https://stock.adobe.com/images/id/126843544?clickref=1011lybrSC5I&mv=affiliate&mv2=pz&as_camptype=&as_channel=affiliate&as_source=partnerize&as_campaign=wbm)
+
+- The image depicting squats on the lowerbody page was taken from [stock.adobe.com](https://stock.adobe.com/images/id/224023705?clickref=1011lybrScqY&mv=affiliate&mv2=pz&as_camptype=&as_channel=affiliate&as_source=partnerize&as_campaign=wbm)
+
+- The image depicting lunges on the lowerbody page was taken from [stock.adobe.com](https://stock.adobe.com/images/id/80279947?clickref=1011lybrSg4b&mv=affiliate&mv2=pz&as_camptype=&as_channel=affiliate&as_source=partnerize&as_campaign=wbm)
+
+- The image depicting hip thrusts on the lowerbody page was taken from [stock.adobe.com](https://stock.adobe.com/images/id/658724489?clickref=1011lybrSmiX&mv=affiliate&mv2=pz&as_camptype=&as_channel=affiliate&as_source=partnerize&as_campaign=wbm)
+
+- These images were obtained via [pikwizard.com](https://pikwizard.com/)
