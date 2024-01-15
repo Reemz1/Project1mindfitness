@@ -91,16 +91,48 @@ At the moment there are three workouts documented on each page, however there ar
 
 ## Validator Testing ##
 
-- I used the HTML validator to check my HTML pages for any errors: 
-No errors were found in index.html 
-An incorrect image file name was found in upperbody.html. I corrected this by removing the space from the file name. This removed any errors.
-No errors were found in lowerbody.html.
+### HTML ###
+- I used the official W3C validator to validate my HTML code. 
+- No errors were found in index.html 
+- An incorrect image file name was found in upperbody.html. I corrected this by removing the space from the file name. This removed any errors.
+- No errors were found in lowerbody.html.
+- Some errors were found in signup.html. A screenshot has been added below.
+
+![Errors found in signup.html](image-12.png)
+
+### CSS ###
+
+- I used the official Jigsaw W3 validator to validate my CSS code.
+- No errors were found in the style.css file.
+
+### Accessibility ###
+
+- I used the lighthouse tool in DevTools to determine how accessible my website is. I recieved a score of 100%.
+
+### Unfixed Bugs ###
+
+- I was unable to resolve the bug found in signup.html via the W3C validator. This is because any changes made affected the styling of the page, and i was unable to locate the stray end tags. open elememts and unclosed element upon review.
+
+## Deployment ##
+
+- This website was deployed via Github-Pages. 
+
+- I clicked 'settings' on the deployment page 
+- clicked 'pages' in the Code and Automation section of the sidebar
+- selected the main branch from the branch section, within build and deployment 
+- selected the root folder 
+- pressed save 
+
+The live link for my website can be found [here](https://reemz1.github.io/Project1mindfitness/)
 
 
+## Credits ##
 
+### Code ###
 
+- The code for the navigation bar, dropdown menu, cover text and footer were taken from Code Institute's [Love Running Repository](https://github.com/Code-Institute-Solutions/love-running-v3.git)
 
-## Media ##
+### Images ###
 
 - The image depicting bicep curls on the upperbody page was taken from [stock.adobe.com](https://stock.adobe.com/images/id/70166543?clickref=1101lyb6wRp3&mv=affiliate&mv2=pz&as_camptype=&as_channel=affiliate&as_source=partnerize&as_campaign=wbm)
 
