@@ -33,7 +33,7 @@ At the moment there are three workouts documented on each page, however there ar
 - These icons were taken from [fontawesome.com](https://fontawesome.com/search?q=smile&o=r&m=free)
 - On clicking the icons, the user will be taken to the corresponding social media site, which will open in a new browser tab. There is alt text provided for those users with accessibility needs.
 
-## Upperbody Page Features ##
+### Upperbody Page Features ###
 
 ![Picture of upperbody page workout](image-6.png)
 
@@ -46,7 +46,7 @@ At the moment there are three workouts documented on each page, however there ar
 - The upperbody page also includes the navigation bar, the header and the footer section and social media links, as shown above.
 - I plan to expand on this page by adding more workouts as well as their descriptions.
 
-## Lowerbody Page Features ##
+### Lowerbody Page Features ###
 
 ![Picture of lowerbody page workout](image-15.png)
 
@@ -59,3 +59,19 @@ At the moment there are three workouts documented on each page, however there ar
 - The lowerbody page also includes the navigation bar, the header and the footer section and social media links, as shown above.
 - I plan to expand on this page by adding more workouts as well as their descriptions.
 
+### Signup Page Features ###
+
+![Form on signup page](image-18.png)
+
+- Above is a screenshot of the form element in the signup page.
+- The form includes a fieldset stating that this is where the user enters their details. The details being: their first name, last name,  and email address.
+- There is also a checkbox to confirm agreement to terms and conditions, and a submit button.
+
+
+![Contact us section on signup page](image-19.png)
+
+- Above is a screenshot of the Contact section in the signup page.
+- This section includes a phone number and email by which users can contact regarding features of the page, and questions or suggestions.
+
+
+## Testing ##
