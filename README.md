@@ -1,39 +1,41 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Mindfitness #
 
-Welcome,
+Mindfitness is a website that documents workouts that can be performed both in the gym and in the home, with easy to follow steps and images. There is also information about the specific muscles that are targeted with each workout. 
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The intention behind this website is to make working out easy to understand and access for all people, as working out increases a person's motivation, helps improve their mood, and makes them more aware and in tune with themselves, hence the name. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+This website targets those who may be new to working out and need ideas, or those who are looking for ways to be more mindful.
 
-## Codeanywhere Reminders
+At the moment there are three workouts documented on each page, however there are plans to increase the amount of workouts and range of workouts documented.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+![Image documenting responsiveness of website](image-2.png)
 
-`python3 -m http.server`
+## Features ##
+### Navigation ###
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+![picture documenting header and navigation bar of website](image-3.png)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- Above is an image of the navigation bar. This bar is at the top of every webpage.
+- The navigation bar provides the links to each page and what they contain.
+- There is a link to the home page, for returning from other pages.
+- There are links to the other pages on the site, such as Upperbody, Lowerbody and Signup. These links are all located on the top right hand side.
+- On the top left hand side of the navigation bar, you will find the site header, which is also a link back to the home page. Beneath the header, there is a lesser header which is the slogan for the website.
 
-`http_server`
+![The cover text on the home page](image-4.png)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- Above is an image of the cover text displayed on the home page.
+- The cover text gives a brief explanation about the website and it's purpose. 
+- I plan to increase the information provided about mindfulness, either within the home page itself or on a seperate designated page.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+![Footer and social media icons](image-5.png)
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- Above is an image of the footer bar and social media links with icons, which is found at the bottom of every web page.
+- These icons were taken from [fontawesome.com](https://fontawesome.com/search?q=smile&o=r&m=free)
+- On clicking the icons, the user will be taken to the corresponding social media site, which will open in a new browser tab. There is alt text provided for those users with accessibility needs.
 
-To log into the Heroku toolbelt CLI:
+## Upperbody Page Features ##
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Picture of upperbody page workout](image-6.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![Picture of what muscles the workout targets](image-7.png)
 
----
-
-Happy coding!
