@@ -130,7 +130,9 @@ The live link for my website can be found [here](https://reemz1.github.io/Projec
 
 ### Code ###
 
-- The code for the navigation bar, dropdown menu, cover text and footer were taken from Code Institute's [Love Running Repository](https://github.com/Code-Institute-Solutions/love-running-v3.git)
+- The HTML code for the navigation bar, dropdown menu, cover text and footer were taken from Code Institute's [Love Running Repository](https://github.com/Code-Institute-Solutions/love-running-v3.git)
+
+- The CSS code for the asterisk wildcard selector, the body element, the header elements, the dropdown navigation bar, the menu within the dropdown navigation bar, the navigation toggle, the main content, the hero image, the cover text, the footer and the icons within the footer, were taken from Code Institute's [Love Running Repository](https://github.com/Code-Institute-Solutions/love-running-v3.git)
 
 ### Images ###
 
@@ -147,3 +149,19 @@ The live link for my website can be found [here](https://reemz1.github.io/Projec
 - The image depicting hip thrusts on the lowerbody page was taken from [stock.adobe.com](https://stock.adobe.com/images/id/658724489?clickref=1011lybrSmiX&mv=affiliate&mv2=pz&as_camptype=&as_channel=affiliate&as_source=partnerize&as_campaign=wbm)
 
 - These images were obtained via [pikwizard.com](https://pikwizard.com/)
+
+### Icons ###
+
+- The Favicon was taken from [pngtree.com](https://pngtree.com/element/down?id=NTMwNzgyNA==&type=1&time=1705344466&token=YTU2MzUxMjIyYzNmYjI3ODBkYjZjZTA5OGVhYzdmNGM=&t=0)
+
+- The header icon was taken from [fontawesome.com](https://fontawesome.com/icons/dumbbell?f=classic&s=solid)
+
+- The social media icon for Facebook was taken from [fontawesome.com](https://fontawesome.com/icons/twitter?f=brands&s=solid)
+
+- The social media icon for Instagram was taken from [fontawesome.com](https://fontawesome.com/icons/instagram?f=brands&s=solid)
+
+- The social media icon for Twitter was taken from [fontawesome.com](https://fontawesome.com/icons/twitter?f=brands&s=solid)
+
+### Fonts ###
+
+- The fonts were taken from [googlefonts.com](https://fonts.google.com/?query=quicksand)
