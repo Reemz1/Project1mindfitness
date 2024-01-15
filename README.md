@@ -6,7 +6,7 @@ The intention behind this website is to make working out easy to understand and 
 
 This website targets those who may be new to working out and need ideas, or those who are looking for ways to be more mindful.
 
-At the moment there are three workouts documented on each page, however there are plans to increase the amount of workouts and range of workouts documented.
+At the moment there are three workouts documented on each page, however there are plans to increase the amount and range of workouts documented.
 
 ![Image documenting responsiveness of website](image-2.png)
 
@@ -35,18 +35,23 @@ At the moment there are three workouts documented on each page, however there ar
 
 ### Upperbody Page Features ###
 
+![Picture of workout from upperbodypage](image-8.png)
 
+![Description of workout and muscles targeted](image-9.png)
 
-- Above are sreenshots from the upperbody page, explaining how to perform the workout, and the muscles that the workout targets, with images included.
+- Above are sreenshots from the upperbody page, explaining how to perform the workout, with images included, and the muscles that are targeted.
 - There are two more workouts within the upperbody page, documenting how to perform the workout, and which muscles they target.
 - The upperbody page also includes the navigation bar, the header and the footer section and social media links, as shown above.
 - I plan to expand on this page by adding more workouts as well as their descriptions.
 
 ### Lowerbody Page Features ###
 
+![Picture of workout from lowerbody page](image-10.png)
+
+![Description of workout and muscles targeted](image-11.png)
 
 
-- Above are sreenshots from the lowerbody page, explaining how to perform the workout, and the muscles that the workout targets, with images included, similar to the upperbody page.
+- Above are sreenshots from the lowerbody page, explaining how to perform the workout, with images included, and the muscles that are targeted, similar to the upperbody page.
 - There are two more workouts within the lowerbody page, documenting how to perform the workout, and which muscles they target.
 - The lowerbody page also includes the navigation bar, the header and the footer section and social media links, as shown above.
 - I plan to expand on this page by adding more workouts as well as their descriptions.
@@ -69,7 +74,22 @@ At the moment there are three workouts documented on each page, however there ar
 
 ## Testing ##
 
+- I have tested the website on Google Chrome and Safari.
 
+- I have made sure that the website looks presentable, is functionable and responsive on different screen sizes using DevTools.
+
+- I have made sure that all the content is readable and understandable.
+
+- I have confirmed that all the links are working correctly, and that the form works correctly submits the information.
+
+
+## Bugs ##
+
+- I noticed that my links did not have aria-labels, and made sure to correct this. 
+
+- On testing my webpage via github-pages, i had found some bugs.
+
+- 
 
 
 ## Media ##
