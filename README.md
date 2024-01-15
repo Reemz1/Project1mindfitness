@@ -39,3 +39,23 @@ At the moment there are three workouts documented on each page, however there ar
 
 ![Picture of what muscles the workout targets](image-7.png)
 
+![Description of what muscles the workout targets](image-9.png)
+
+- Above are sreenshots from the upperbody page, explaining how to perform the workout, and the muscles that the workout targets, with images included.
+- There are two more workouts within the upperbody page, documenting how to perform the workout, and which muscles they target.
+- The upperbody page also includes the navigation bar, the header and the footer section and social media links, as shown above.
+- I plan to expand on this page by adding more workouts as well as their descriptions.
+
+## Lowerbody Page Features ##
+
+![Picture of lowerbody page workout](image-15.png)
+
+![Pictures of what muscles the workout targets](image-16.png)
+
+![Description of what muscles the workout targets](image-17.png)
+
+- Above are sreenshots from the lowerbody page, explaining how to perform the workout, and the muscles that the workout targets, with images included, similar to the upperbody page.
+- There are two more workouts within the lowerbody page, documenting how to perform the workout, and which muscles they target.
+- The lowerbody page also includes the navigation bar, the header and the footer section and social media links, as shown above.
+- I plan to expand on this page by adding more workouts as well as their descriptions.
+
