@@ -35,11 +35,7 @@ At the moment there are three workouts documented on each page, however there ar
 
 ### Upperbody Page Features ###
 
-![Picture of upperbody page workout](image-6.png)
 
-![Picture of what muscles the workout targets](image-7.png)
-
-![Description of what muscles the workout targets](image-9.png)
 
 - Above are sreenshots from the upperbody page, explaining how to perform the workout, and the muscles that the workout targets, with images included.
 - There are two more workouts within the upperbody page, documenting how to perform the workout, and which muscles they target.
@@ -48,11 +44,7 @@ At the moment there are three workouts documented on each page, however there ar
 
 ### Lowerbody Page Features ###
 
-![Picture of lowerbody page workout](image-15.png)
 
-![Pictures of what muscles the workout targets](image-16.png)
-
-![Description of what muscles the workout targets](image-17.png)
 
 - Above are sreenshots from the lowerbody page, explaining how to perform the workout, and the muscles that the workout targets, with images included, similar to the upperbody page.
 - There are two more workouts within the lowerbody page, documenting how to perform the workout, and which muscles they target.
@@ -73,5 +65,13 @@ At the moment there are three workouts documented on each page, however there ar
 - Above is a screenshot of the Contact section in the signup page.
 - This section includes a phone number and email by which users can contact regarding features of the page, and questions or suggestions.
 
+- Similar to the other pages, the sign up page also has the navigation bar, the header and the footer with social media icons and links
 
 ## Testing ##
+
+
+
+
+## Media ##
+
+- The image depicting bicep curls on the upperbody page was taken from [pikwizard.com](https://pikwizard.com/s/photo/bicep+curls/)
