@@ -82,14 +82,22 @@ At the moment there are three workouts documented on each page, however there ar
 
 - I have confirmed that all the links are working correctly, and that the form works correctly submits the information.
 
-
 ## Bugs ##
 
-- I noticed that my links did not have aria-labels, and made sure to correct this. 
+- I noticed that my navigation links and form labels and input fields did not have aria-labels, and made sure to correct this. 
 
-- On testing my webpage via github-pages, i had found some bugs.
+- On testing my webpage by deploying via github-pages, i had found some bugs: I found that my navigation elements were not correctly linked to the relevant pages, so fixed that by adding the relative filepaths to the HREF attribute. I found that my social media links were not correctly linked, so corrected this by providing the correct URLs to the HREF attribute. I also found that my form was not submitting, so made sure to add an ACTION attribute and value to correct this.
 
-- 
+
+## Validator Testing ##
+
+- I used the HTML validator to check my HTML pages for any errors: 
+No errors were found in index.html 
+An incorrect image file name was found in upperbody.html. I corrected this by removing the space from the file name. This removed any errors.
+No errors were found in lowerbody.html.
+
+
+
 
 
 ## Media ##
