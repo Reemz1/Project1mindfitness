@@ -12,34 +12,37 @@ At the moment there are three workouts documented on each page, however there ar
 
 ## Features ##
 ### Navigation ###
+#### Navigation Bar ####
 
 ![picture documenting header and navigation bar of website](image-3.png)
 
 - Above is an image of the navigation bar. This bar is at the top of every webpage.
 
-- The navigation bar provides the links to each page and what they contain.
+   - The navigation bar provides the links to each page and are labelled as what they contain.
 
-- There is a link to the home page, for returning from other pages.
+   - There is a link to the home page, for returning from other pages.
 
-- There are links to the other pages on the site, such as Upperbody, Lowerbody and Signup. These links are all located on the top right hand side.
+   - There are links to the other pages on the site, such as 'Upperbody', 'Lowerbody' and 'Signup'. These links are all located on the top right hand side.
 
-- On the top left hand side of the navigation bar, you will find the site header, which is also a link back to the home page. Beneath the header, there is a lesser header which is the slogan for the website.
+   - On the top left hand side of the navigation bar, you will find the site header, which is also a link back to the home page. Beneath the header, there is the slogan for the website.
+
+#### Cover Text ####
 
 ![The cover text on the home page](image-4.png)
 
 - Above is an image of the cover text displayed on the home page.
 
-- The cover text gives a brief explanation about the website and it's purpose. 
+   - The cover text gives a brief explanation about the website and it's purpose. 
 
-- I plan to increase the information provided about mindfulness, either within the home page itself or on a seperate designated page.
+   - I plan to increase the information provided about mindfulness, either within the home page itself or on a seperate designated page.
 
 ![Footer and social media icons](image-5.png)
 
 - Above is an image of the footer bar and social media links with icons, which is found at the bottom of every web page.
 
-- These icons were taken from [fontawesome.com](https://fontawesome.com/search?q=smile&o=r&m=free)
+   - These icons were taken from [fontawesome.com](https://fontawesome.com/search?q=smile&o=r&m=free)
 
-- On clicking the icons, the user will be taken to the corresponding social media site, which will open in a new browser tab. There is alt text provided for those users with accessibility needs.
+   - On clicking the icons, the user will be taken to the corresponding social media site, which will open in a new browser tab. There is alt text provided for those users with accessibility needs.
 
 ### Upperbody Page Features ###
 
@@ -71,23 +74,23 @@ At the moment there are three workouts documented on each page, however there ar
 - I plan to expand on this page by adding more workouts as well as their descriptions.
 
 ### Signup Page Features ###
-
+#### Form ####
 ![Form on signup page](image-6.png)
 
 - Above is a screenshot of the form element in the signup page.
 
-- The form includes a fieldset stating that this is where the user enters their details. The details being: their first name, last name,  and email address.
+   - The form includes a fieldset stating that this is where the user enters their details. The details being: their first name, last name,  and email address.
 
-- There is also a checkbox to confirm agreement to terms and conditions, and a submit button.
+   - There is also a checkbox to confirm agreement to terms and conditions, and a submit button.
 
-
+#### Contact Us Section ####
 ![Contact us section on signup page](image-7.png)
 
 - Above is a screenshot of the Contact section in the signup page.
 
-- This section includes a phone number and email by which users can contact regarding features of the page, and questions or suggestions.
+   - This section includes a phone number and email by which users can contact regarding features of the page, and questions or suggestions.
 
-- Similar to the other pages, the sign up page also has the navigation bar, the header and the footer with social media icons and links
+   - Similar to the other pages, the sign up page also has the navigation bar, the header and the footer with social media icons and links
 
 ## Testing ##
 
@@ -95,58 +98,69 @@ At the moment there are three workouts documented on each page, however there ar
 
 - I have made sure that the website looks presentable, is functionable and responsive on different screen sizes using DevTools.
 
-- I have made sure that all the content is readable and understandable.
+- I have made sure that all the content is readable and understandable on the different screen sizes.
 
-- I have confirmed that all the links are working correctly, and that the form works correctly submits the information.
+- I have confirmed that all the links are working correctly, and that the form works correctly and submits the information. I have ensured that all of the fields require input.
 
 ## Bugs ##
 
 - I noticed that my navigation links and form labels and input fields did not have aria-labels, and made sure to correct this. 
 
-- On testing my webpage by deploying via github-pages, i had found some bugs: I found that my navigation elements were not correctly linked to the relevant pages, so fixed that by adding the relative filepaths to the HREF attribute. I found that my social media links were not correctly linked, so corrected this by providing the correct URLs to the HREF attribute. I also found that my form was not submitting, so made sure to add an ACTION attribute and value to correct this.
+- On testing my webpage by deploying via github-pages, i had found some bugs: 
+
+    - I found that my navigation elements were not correctly linked to the relevant pages, and fixed that by adding the relative filepaths to the HREF attribute. 
+
+    - I found that my social media links were not correctly linked, and corrected this by providing the correct URLs to the HREF attribute. 
+
+    - I found that my form was not submitting, so made sure to add an ACTION attribute and value to correct this.
 
 
 ## Validator Testing ##
 
 ### HTML ###
-- I used the official W3C validator to validate my HTML code. 
+- I used the official W3C validator to validate my HTML code:
 
-- No errors were found in index.html 
+   - No errors were found in index.html 
 
-- An incorrect image file name was found in upperbody.html. I corrected this by removing the space from the file name. This removed any errors.
+   - An incorrect image file name was found in upperbody.html. I corrected this by removing the space from the file name. This removed any errors.
 
-- No errors were found in lowerbody.html.
+   - No errors were found in lowerbody.html.
 
-- Some errors were found in signup.html. A screenshot has been added below.
+   - Some errors were found in signup.html. A screenshot has been added below.
 
 ![Errors found in signup.html](image-12.png)
 
 ### CSS ###
 
-- I used the official Jigsaw W3 validator to validate my CSS code.
-- No errors were found in the style.css file.
+- I used the official Jigsaw W3 validator to validate my CSS code:
+
+   - No errors were found in the style.css file.
 
 ### Accessibility ###
 
-- I used the lighthouse tool in DevTools to determine how accessible my website is. I recieved a score of 100%.
+- I used the lighthouse tool in DevTools to determine how accessible my website is:
+
+   - I recieved a score of 100%.
 
 ### Unfixed Bugs ###
 
-- I was unable to resolve the bug found in signup.html via the W3C validator. This is because any changes made affected the styling of the page, and i was unable to locate the stray end tags. open elememts and unclosed element upon review.
+- I was unable to resolve the bug found in signup.html via the W3C validator:
+
+   - This is because any changes made affected the styling of the page, and i was unable to locate the stray end tags, open elememts and unclosed element upon review.
 
 ## Deployment ##
 
-- This website was deployed via Github-Pages. 
+- This website was deployed via Github-Pages. The steps i took to deploy the site are as follows:
 
-- I clicked 'settings' on the deployment page 
+   - I clicked 'Settings' on the Deployment page.
 
-- clicked 'pages' in the Code and Automation section of the sidebar
+   - I then clicked 'Pages' in the 'Code and Automation' section of the sidebar.
 
-- selected the main branch from the branch section, within build and deployment 
+   - I selected the 'Main branch' from the dropdown in the branch section, within 'Build and Deployment'. 
 
-- selected the root folder 
+   - I selected the 'Root folder' from the dropdown near the branch.
 
-- pressed save 
+   - I then pressed save, and a live link of my website was produced by GitHub, found in the right hand side of the 'Code' page, in the 'Deployments' section. 
 
 The live link for my website can be found [here](https://reemz1.github.io/Project1mindfitness/)
 
@@ -160,6 +174,8 @@ The live link for my website can be found [here](https://reemz1.github.io/Projec
 - The CSS code for the asterisk wildcard selector, the body element, the header elements, the dropdown navigation bar, the menu within the dropdown navigation bar, the navigation toggle, the main content, the hero image, the cover text, the footer and the icons within the footer, were taken from Code Institute's [Love Running Repository](https://github.com/Code-Institute-Solutions/love-running-v3.git)
 
 ### Images ###
+
+- The hero image on index.html and background image on signup.html are my own personal pictures.
 
 - The image depicting bicep curls on the upperbody page was taken from [stock.adobe.com](https://stock.adobe.com/images/id/70166543?clickref=1101lyb6wRp3&mv=affiliate&mv2=pz&as_camptype=&as_channel=affiliate&as_source=partnerize&as_campaign=wbm)
 
