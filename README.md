@@ -175,7 +175,7 @@ The live link for my website can be found [here](https://reemz1.github.io/Projec
 
 - The CSS code for the asterisk wildcard selector, the body element, the header elements, the dropdown navigation bar, the menu within the dropdown navigation bar, the navigation toggle, the main content, the hero image, the cover text, the footer and the icons within the footer, were taken from Code Institute's [Love Running Repository](https://github.com/Code-Institute-Solutions/love-running-v3.git). 
 
-      -I used the Love Running code as an initial blueprint, then adjusted according to my website layout.
+  - I used the Love Running code as an initial blueprint, then adjusted according to my website layout.
 
 ### Images ###
 
