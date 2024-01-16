@@ -146,7 +146,7 @@ At the moment there are three workouts documented on each page, however there ar
 
 - I was unable to resolve the bug found in signup.html via the W3C validator:
 
-   - This is because any changes made affected the styling of the page, and i was unable to locate the stray end tags, open elememts and unclosed element upon review.
+   - This is because any changes made affected the styling of the page, and i was unable to locate the stray end tags, open elements and unclosed element upon review.
 
 ## Deployment ##
 
