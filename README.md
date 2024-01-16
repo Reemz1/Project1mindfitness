@@ -140,7 +140,9 @@ At the moment there are three workouts documented on each page, however there ar
 
 - I used the lighthouse tool in DevTools to determine how accessible my website is:
 
-   - I recieved a score of 100%.
+   - I recieved a score of 100% as shown in the screenshot below.
+
+![Screenshot of lighthouse score](image-13.png)
 
 ### Unfixed Bugs ###
 
