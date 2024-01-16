@@ -40,7 +40,7 @@ At the moment there are three workouts documented on each page, however there ar
 
 - Above is an image of the footer bar and social media links with icons, which is found at the bottom of every web page.
 
-   - These icons were taken from [fontawesome.com](https://fontawesome.com/search?q=smile&o=r&m=free)
+   - These icons were taken from [fontawesome.com](https://fontawesome.com/search?q=smile&o=r&m=free).
 
    - On clicking the icons, the user will be taken to the corresponding social media site, which will open in a new browser tab. There is alt text provided for those users with accessibility needs.
 
@@ -50,7 +50,7 @@ At the moment there are three workouts documented on each page, however there ar
 
 ![Description of workout and muscles targeted](image-9.png)
 
-- Above are sreenshots from the upperbody page, explaining how to perform the workout, with images included, and the muscles that are targeted.
+- Above are screenshots from the upperbody page, explaining how to perform the workout, with images included, and the muscles that are targeted.
 
 - There are two more workouts within the upperbody page, documenting how to perform the workout, and which muscles they target.
 
@@ -65,7 +65,7 @@ At the moment there are three workouts documented on each page, however there ar
 ![Description of workout and muscles targeted](image-11.png)
 
 
-- Above are sreenshots from the lowerbody page, explaining how to perform the workout, with images included, and the muscles that are targeted, similar to the upperbody page.
+- Above are screenshots from the lowerbody page, explaining how to perform the workout, with images included, and the muscles that are targeted, similar to the upperbody page.
 
 - There are two more workouts within the lowerbody page, documenting how to perform the workout, and which muscles they target.
 
@@ -178,8 +178,6 @@ The live link for my website can be found [here](https://reemz1.github.io/Projec
   - I used the Love Running code as an initial blueprint, then adjusted according to my website layout.
 
 ### Images ###
-
-- The hero image on index.html and background image on signup.html are my own personal pictures.
 
 - The image depicting bicep curls on the upperbody page was taken from [stock.adobe.com](https://stock.adobe.com/images/id/70166543?clickref=1101lyb6wRp3&mv=affiliate&mv2=pz&as_camptype=&as_channel=affiliate&as_source=partnerize&as_campaign=wbm).
 
