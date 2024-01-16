@@ -90,7 +90,7 @@ At the moment there are three workouts documented on each page, however there ar
 
    - This section includes a phone number and email by which users can contact regarding features of the page, and questions or suggestions.
 
-   - Similar to the other pages, the sign up page also has the navigation bar, the header and the footer with social media icons and links
+   - Similar to the other pages, the sign up page also has the navigation bar, the header and the footer with social media icons and links.
 
 ## Testing ##
 
@@ -104,7 +104,7 @@ At the moment there are three workouts documented on each page, however there ar
 
 ## Bugs ##
 
-- I noticed that my navigation links and form labels and input fields did not have aria-labels, and made sure to correct this. 
+- I noticed that my navigation links, form labels and input fields did not have aria-labels, and made sure to correct this. 
 
 - On testing my webpage by deploying via github-pages, i had found some bugs: 
 
@@ -126,7 +126,7 @@ At the moment there are three workouts documented on each page, however there ar
 
    - No errors were found in lowerbody.html.
 
-   - Some errors were found in signup.html. A screenshot has been added below.
+   - Some errors were found in signup.html. A screenshot has been added below:
 
 ![Errors found in signup.html](image-12.png)
 
@@ -162,47 +162,49 @@ At the moment there are three workouts documented on each page, however there ar
 
    - I then pressed save, and a live link of my website was produced by GitHub, found in the right hand side of the 'Code' page, in the 'Deployments' section. 
 
-The live link for my website can be found [here](https://reemz1.github.io/Project1mindfitness/)
+The live link for my website can be found [here](https://reemz1.github.io/Project1mindfitness/).
 
 
 ## Credits ##
 
 ### Code ###
 
-- The HTML code for the navigation bar, dropdown menu, cover text and footer were taken from Code Institute's [Love Running Repository](https://github.com/Code-Institute-Solutions/love-running-v3.git)
+- The HTML code for the navigation bar, dropdown menu, cover text and footer were taken from Code Institute's [Love Running Repository](https://github.com/Code-Institute-Solutions/love-running-v3.git).
 
-- The CSS code for the asterisk wildcard selector, the body element, the header elements, the dropdown navigation bar, the menu within the dropdown navigation bar, the navigation toggle, the main content, the hero image, the cover text, the footer and the icons within the footer, were taken from Code Institute's [Love Running Repository](https://github.com/Code-Institute-Solutions/love-running-v3.git)
+- The CSS code for the asterisk wildcard selector, the body element, the header elements, the dropdown navigation bar, the menu within the dropdown navigation bar, the navigation toggle, the main content, the hero image, the cover text, the footer and the icons within the footer, were taken from Code Institute's [Love Running Repository](https://github.com/Code-Institute-Solutions/love-running-v3.git). 
+
+      -I used the Love Running code as an initial blueprint, then adjusted according to my website layout.
 
 ### Images ###
 
 - The hero image on index.html and background image on signup.html are my own personal pictures.
 
-- The image depicting bicep curls on the upperbody page was taken from [stock.adobe.com](https://stock.adobe.com/images/id/70166543?clickref=1101lyb6wRp3&mv=affiliate&mv2=pz&as_camptype=&as_channel=affiliate&as_source=partnerize&as_campaign=wbm)
+- The image depicting bicep curls on the upperbody page was taken from [stock.adobe.com](https://stock.adobe.com/images/id/70166543?clickref=1101lyb6wRp3&mv=affiliate&mv2=pz&as_camptype=&as_channel=affiliate&as_source=partnerize&as_campaign=wbm).
 
-- The image depicting bent over rows on the upperbody page was taken from [stock.adobe.com](https://stock.adobe.com/uk/images/id/508577358?clickref=1100lyaCJrn2&mv=affiliate&mv2=pz&as_camptype=&as_channel=affiliate&as_source=partnerize&as_campaign=wbm)
+- The image depicting bent over rows on the upperbody page was taken from [stock.adobe.com](https://stock.adobe.com/uk/images/id/508577358?clickref=1100lyaCJrn2&mv=affiliate&mv2=pz&as_camptype=&as_channel=affiliate&as_source=partnerize&as_campaign=wbm).
 
-- The image depicting dumbbell shoulder press on the upperbody page was taken from [stock.adobe.com](https://stock.adobe.com/images/id/126843544?clickref=1011lybrSC5I&mv=affiliate&mv2=pz&as_camptype=&as_channel=affiliate&as_source=partnerize&as_campaign=wbm)
+- The image depicting dumbbell shoulder press on the upperbody page was taken from [stock.adobe.com](https://stock.adobe.com/images/id/126843544?clickref=1011lybrSC5I&mv=affiliate&mv2=pz&as_camptype=&as_channel=affiliate&as_source=partnerize&as_campaign=wbm).
 
-- The image depicting squats on the lowerbody page was taken from [stock.adobe.com](https://stock.adobe.com/images/id/224023705?clickref=1011lybrScqY&mv=affiliate&mv2=pz&as_camptype=&as_channel=affiliate&as_source=partnerize&as_campaign=wbm)
+- The image depicting squats on the lowerbody page was taken from [stock.adobe.com](https://stock.adobe.com/images/id/224023705?clickref=1011lybrScqY&mv=affiliate&mv2=pz&as_camptype=&as_channel=affiliate&as_source=partnerize&as_campaign=wbm).
 
-- The image depicting lunges on the lowerbody page was taken from [stock.adobe.com](https://stock.adobe.com/images/id/80279947?clickref=1011lybrSg4b&mv=affiliate&mv2=pz&as_camptype=&as_channel=affiliate&as_source=partnerize&as_campaign=wbm)
+- The image depicting lunges on the lowerbody page was taken from [stock.adobe.com](https://stock.adobe.com/images/id/80279947?clickref=1011lybrSg4b&mv=affiliate&mv2=pz&as_camptype=&as_channel=affiliate&as_source=partnerize&as_campaign=wbm).
 
-- The image depicting hip thrusts on the lowerbody page was taken from [stock.adobe.com](https://stock.adobe.com/images/id/658724489?clickref=1011lybrSmiX&mv=affiliate&mv2=pz&as_camptype=&as_channel=affiliate&as_source=partnerize&as_campaign=wbm)
+- The image depicting hip thrusts on the lowerbody page was taken from [stock.adobe.com](https://stock.adobe.com/images/id/658724489?clickref=1011lybrSmiX&mv=affiliate&mv2=pz&as_camptype=&as_channel=affiliate&as_source=partnerize&as_campaign=wbm).
 
-- These images were obtained via [pikwizard.com](https://pikwizard.com/)
+- These images were obtained via [pikwizard.com](https://pikwizard.com/).
 
 ### Icons ###
 
-- The Favicon was taken from [pngtree.com](https://pngtree.com/element/down?id=NTMwNzgyNA==&type=1&time=1705344466&token=YTU2MzUxMjIyYzNmYjI3ODBkYjZjZTA5OGVhYzdmNGM=&t=0)
+- The Favicon was taken from [pngtree.com](https://pngtree.com/element/down?id=NTMwNzgyNA==&type=1&time=1705344466&token=YTU2MzUxMjIyYzNmYjI3ODBkYjZjZTA5OGVhYzdmNGM=&t=0).
 
-- The header icon was taken from [fontawesome.com](https://fontawesome.com/icons/dumbbell?f=classic&s=solid)
+- The header icon was taken from [fontawesome.com](https://fontawesome.com/icons/dumbbell?f=classic&s=solid).
 
-- The social media icon for Facebook was taken from [fontawesome.com](https://fontawesome.com/icons/twitter?f=brands&s=solid)
+- The social media icon for Facebook was taken from [fontawesome.com](https://fontawesome.com/icons/twitter?f=brands&s=solid).
 
-- The social media icon for Instagram was taken from [fontawesome.com](https://fontawesome.com/icons/instagram?f=brands&s=solid)
+- The social media icon for Instagram was taken from [fontawesome.com](https://fontawesome.com/icons/instagram?f=brands&s=solid).
 
-- The social media icon for Twitter was taken from [fontawesome.com](https://fontawesome.com/icons/twitter?f=brands&s=solid)
+- The social media icon for Twitter was taken from [fontawesome.com](https://fontawesome.com/icons/twitter?f=brands&s=solid).
 
 ### Fonts ###
 
-- The fonts were taken from [googlefonts.com](https://fonts.google.com/?query=quicksand)
+- The fonts were taken from [googlefonts.com](https://fonts.google.com/?query=quicksand).
